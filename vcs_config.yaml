@@ -1,0 +1,20 @@
+repos:
+  6db89955-b825-4502-996d-d31b15368092:
+    environments:
+      prod:
+        lastAttemptedRev: 2d49fb7cf8405644220c64374e125b44f22b74bc
+        lastSuccessfulRev: []
+        failedProjects:
+          API:
+          - type: API
+            absolutePath: /Users/layanimalsha/Documents/CRT/Customer-traning/APIM-4.4.0/Source/newSwaggerPetstore-1.0.0
+            relativePath: newSwaggerPetstore-1.0.0
+            nickName: newSwaggerPetstore-1.0.0
+            metaData:
+              name: newSwaggerPetstore
+              version: 1.0.0
+              deploy:
+                import:
+                  update: true
+                  preserveProvider: true
+                  rotateRevision: false
